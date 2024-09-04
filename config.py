@@ -20,10 +20,10 @@ OWNER_ID = int(getenv("OWNER_ID", "6922271843"))
 MONGO_URL = getenv("MONGO_URL", "")
 
 #### ❖ ──────⊱◈◈◈⊰────── ❖
-SUPPORT_GRP = getenv("SUPPORT_GRP", "Exampurrs")
+SUPPORT_GRP = getenv("SUPPORT_GRP", "love_in_timeee")
 
 #### ❖ ──────⊱◈◈◈⊰────── ❖
-UPDATE_CHNL = getenv("UPDATE_CHNL", "FONT_CHANNEL_01")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "Rollex_dairies")
 
 #### ❖ ──────⊱◈◈◈⊰────── ❖
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Its_vikky_ydv")
