@@ -3,7 +3,7 @@ import random
 
 from pymongo import MongoClient
 from pyrogram import Client, filters, types, enums
-from pyrogram.enums import ChatAction
+from pyrogram.enums import ChatAction, ChatType
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import MONGO_URL
