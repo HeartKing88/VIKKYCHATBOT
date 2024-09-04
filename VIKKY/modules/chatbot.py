@@ -52,7 +52,7 @@ async def enable_disable_chatbot(_, query: types.CallbackQuery):
     else:
         await query.answer("ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ᴏɴʟʏ ꜰᴏʀ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴꜱ.", show_alert=True)
 
-@Chiku.on_message(
+@DKPV.on_message(
     (filters.text & ~filters.bot), group=4
 )
 async def chatbottexts(client, message):
