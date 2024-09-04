@@ -55,7 +55,7 @@ async def help(client: DKPV, m: Message):
   #############
 
 @dev.on_message(filters.command("repo") & ~filters.bot)
-async def repo(_, m: Message):
+async def repo(client: DKPV, m: Message):
     hii = await m.reply_photo(
         photo=random.choice(IMG),
         caption= f"""❖ ʜᴇʏ ʙᴀʙʏ, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ ♥︎\n\n⬤ ɪ ᴀᴍ {BOT_NAME},  ᴀɪ ʙᴀsᴇ ᴄʜᴀᴛʙᴏᴛ.\n\n❖ ɪғ ʏᴏᴜ ᴡᴀɴᴛ {BOT_NAME} ʙᴏᴛ ʀᴇᴘᴏ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʀᴇᴘᴏ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.""",
