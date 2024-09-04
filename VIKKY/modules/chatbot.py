@@ -2,7 +2,7 @@
 import random
 
 from pymongo import MongoClient
-from pyrogram import Client, filters
+from pyrogram import Client, filters, types, enums
 from pyrogram.enums import ChatAction
 from pyrogram.types import InlineKeyboardMarkup, Message
 
