@@ -1,5 +1,5 @@
 from typing import Dict, List, Union
-from ..clients.clients import mongodb
+from config import mongodb
 
 sudoersdb = mongodb.sudoers
 
