@@ -10,11 +10,6 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 from config import MONGO_URL
 from VIKKY import DKPV 
 from VIKKY.modules.helpers import CHATBOT_ON, is_admins
-from motor.motor_asyncio import AsyncIOMotorClient
-
-mongo_client = AsyncIOMotorClient(MONGO_URL)
-db = mongo_client.DKPVdatabass
-chatbotdatabase = db.DKPVdatabse
         
 
 @DKPV.on_message(filters.command("chatbot") & filters.group, group=6)
